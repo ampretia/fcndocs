@@ -1,10 +1,11 @@
 {
-  "name": "fcndocs",
-  "version": "1.0.0",
-  "description": "Quick JSDoc access for Fabric C[haincode|ontract",
+  "name": "@ampretia/fcndocs",
+  "version": "1.0.1",
+  "description": "Quick JSDoc access for Fabric Chaincode",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bin":{
-  	"fcndocs":"./bin/main.js"
-  }
+  	"fcndocs":"./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +22,6 @@
   "homepage": "https://github.com/ampretia/fcndocs#readme",
   "dependencies": {
     "open": "^6.4.0",
-    "serve": "^11.2.0",
     "serve-handler": "^6.1.2"
   }
 }
